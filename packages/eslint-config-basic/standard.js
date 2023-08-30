@@ -8,10 +8,11 @@ module.exports = {
     },
     "sourceType": "module"
   },
-
+  // 代码运行的环境
   "env": {
     "es2021": true,
-    "node": true
+    "node": true, //  Node.js 全局变量和 Node.js 作用域。
+    "browser": true, // window等全局变量可直接使用
   },
 
   "plugins": [
