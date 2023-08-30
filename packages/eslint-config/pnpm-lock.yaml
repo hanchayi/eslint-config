@@ -1,0 +1,10 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@hanchayi/eslint-config-basic':
+    specifier: workspace:*
+    version: link:../eslint-config-basic
