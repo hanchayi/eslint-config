@@ -1,8 +1,22 @@
 # @hanchayi/eslint-config
 
+## Usage
 
-## publish
+### 1. typescript
 
+Install
+
+``` bash
+pnpm add eslint @hanchayi/eslint-config-ts - D
 ```
-pnpm --filter "@hanchayi/*" --no-git-checks --access=public publish
+
+Config `.eslintrc`
+
+``` json
+{
+  "extends": [
+    "@hanchayi/eslint-config-ts"
+  ]
+}
 ```
+
