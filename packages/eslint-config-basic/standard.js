@@ -8,11 +8,10 @@ module.exports = {
     },
     "sourceType": "module"
   },
-  // 代码运行的环境
+  
   "env": {
     "es2021": true,
-    "node": true, //  Node.js 全局变量和 Node.js 作用域。
-    "browser": true, // window等全局变量可直接使用
+    "node": true,
   },
 
   "plugins": [
@@ -60,7 +59,7 @@ module.exports = {
     "default-case-last": "error",
     "dot-location": ["error", "property"],
     "dot-notation": ["error", { "allowKeywords": true }],
-    "eol-last": "error",
+    "eol-last": "error", // 文件最后需要空行
     "eqeqeq": ["error", "always", { "null": "ignore" }],
     "func-call-spacing": ["error", "never"],
     "generator-star-spacing": ["error", { "before": true, "after": true }],
@@ -201,9 +200,9 @@ module.exports = {
     "prefer-promise-reject-errors": "error",
     "prefer-regex-literals": ["error", { "disallowRedundantWrapping": true }],
     "quote-props": ["error", "as-needed"],
-    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": false }],
+    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": false }], // 单引号
     "rest-spread-spacing": ["error", "never"],
-    "semi": ["error", "never"],
+    "semi": ["error", "never"], // 分号
     "semi-spacing": ["error", { "before": false, "after": true }],
     "space-before-blocks": ["error", "always"],
     "space-before-function-paren": ["error", "always"],
